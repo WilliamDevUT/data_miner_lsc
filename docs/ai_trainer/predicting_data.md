@@ -13,10 +13,10 @@ pip install -r requirements/ai_trainer.txt   # tensorflow, keras, mediapipe, etc
 
 
 ### 1. Predecir último video procesado
-python predictor.py --mode latest
+```python predictor.py --mode latest```
 
 ### 2. Validar predicciones vs. Whisper y generar clips
-python predictor.py --mode validate --full-pipeline
+```python predictor.py --mode validate --full-pipeline```
 
 
 ## 2. Salidas
