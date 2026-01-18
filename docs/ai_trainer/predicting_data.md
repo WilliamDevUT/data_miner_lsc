@@ -44,8 +44,8 @@ ai_trainer/output/
 ## 6. Integración con data_miner
 
 Cuando config.py está presente:
-Lee MODEL_FRAMES, PREDICTION_THRESHOLD, rutas de modelos.
-Guarda state.json → predictor puede ejecutarse con --mode state sin indicar rutas.
+Lee `MODEL_FRAMES`, `PREDICTION_THRESHOLD`, rutas de modelos.
+Guarda `state.json` → predictor puede ejecutarse con `--mode state` sin indicar rutas.
 
 ## 7. validacion + clips
 ```bash
