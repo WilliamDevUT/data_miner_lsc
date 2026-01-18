@@ -44,13 +44,14 @@ El módulo mining_data.py detecta automáticamente si groq_whisper está disponi
 Si está presente, la transcripción se ejecuta dentro del pipeline sin 
 configuración extra.
 
-
+```python
 try:
     from groq_whisper import transcribe_audio_in_chunks
     WHISPER_AVAILABLE = True
 except ImportError:
     WHISPER_AVAILABLE = False
-----------------------------------------------------------------------
+
+```
 
 
 
