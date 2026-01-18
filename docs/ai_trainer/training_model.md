@@ -10,7 +10,10 @@ pip install -r requirements/ai_trainer.txt   # tensorflow, pandas, sklearn, etc.
 
 ## 3.probar
 
-python train.py
+```python
+train.py
+```
+
 
 Hace:
 Descubre palabras → words.json
@@ -30,7 +33,10 @@ ai_trainer/output/models/20260119_143022/
 python train.py --no-prepare
 
 # Más épocas / otro batch
-python train.py --epochs 1000 --batch 16 --split 0.2
+```python
+train.py --epochs 1000 --batch 16 --split 0.2
+```
+
 
 ## 6. Datos esperados
 ```bash
