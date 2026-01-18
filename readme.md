@@ -33,7 +33,7 @@ pip install -r requirements/ai_trainer.txt
 | Paso | Comando                                                          | Descripción                                  |
 | ---- | ---------------------------------------------------------------- | -------------------------------------------- |
 | 1    | `python data_miner/mining_data.py --url YOU_TUBE_URL`            | Descarga → segmentos → keypoints             |
-| 2    | `python ai_trainer/train.py`                                     | Entrena modelo (auto-guarda con fecha)       |
+| 2    | `python ai_trainer/training_model.py`                            | Entrena modelo (auto-guarda con fecha)       |
 | 3    | `python ai_trainer/predictor.py --mode latest`                   | Predice último video                         |
 | 4    | `python ai_trainer/predictor.py --mode validate --full-pipeline` | Corta clips buenos/malos y actualiza dataset |
 
