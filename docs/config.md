@@ -33,7 +33,8 @@ from config import (
     save_processing_state,        # json que comunica data_miner → predictor
     load_processing_state,        # lo lee el predictor
     validate_environment,         # chequea modelos y videos
-) ```
+)
+```
 
 
 ## 5. Comunicación entre ambientes
