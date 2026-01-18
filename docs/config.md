@@ -45,7 +45,7 @@ predictor arranca con:
 state = load_processing_state()   # obtiene rutas sin preguntar
 
 ## 6. Flujo típico
-data_miner → vid_data/video_20260119_143022/...
+data_miner → 'vid_data/video_20260119_143022/...'
 save_processing_state() → last_processing_state.json
 predictor --mode state → lee estado → predice
 train.py → lee train_data/... → guarda modelo timestamped
