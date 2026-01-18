@@ -18,9 +18,11 @@ Convierte cada .json → .h5 (HDF5)
 Entrena LSTM 128-256-128 → guarda modelo con timestamp
 
 ## 4. Salidas
+```bash
 ai_trainer/output/models/20260119_143022/
 ├── lstm_30f_20260119_143022.keras   # modelo
 └── words.json                        # índices de clases
+```
 
 ## 5. Opciones 
 
@@ -31,13 +33,14 @@ python train.py --no-prepare
 python train.py --epochs 1000 --batch 16 --split 0.2
 
 ## 6. Datos esperados
-
+```bash
 train_data/
 ├── validadas/keypoints/hola/
 │   ├── seña_1.json   # [[1662], [1662], ...]  (frames, keypoints)
 │   └── seña_2.json
 └── desconocidas/keypoints/adios/
     └── seña_3.json
+```
 
 ## 7. arquitectura por defecto 
 
