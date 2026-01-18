@@ -5,12 +5,13 @@
 Cualquier script que importe `config.py` obtiene rutas, umbrales y utilidades sin hard-code.
 
 ## 2. Ubicación
+```bash
 repo/
 ├── config.py          ← este archivo
 ├── data_miner/
 ├── ai_trainer/
 └── requirements/
-
+```
 
 ## 3. Variables clave (solo lectura)
 
