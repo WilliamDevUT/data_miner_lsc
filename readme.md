@@ -1,5 +1,5 @@
 # LSM-Trainer  
-**Reconocimiento de Lengua de Señas Mexicana con MediaPipe + TensorFlow**
+**Reconocimiento de Lengua de Señas Colombiana con MediaPipe + TensorFlow**
 
 ---
 
@@ -29,6 +29,11 @@ pip install -r requirements/data_miner.txt
 venv_ai\Scripts\activate
 pip install -r requirements/ai_trainer.txt
 ```
+Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
+<!-- docs/setup.md -->
+<meta http-equiv="refresh" content="0; url=https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md"/>
+
+
 ## Comandos tipicos 
 | Paso | Comando                                                          | Descripción                                  |
 | ---- | ---------------------------------------------------------------- | -------------------------------------------- |
