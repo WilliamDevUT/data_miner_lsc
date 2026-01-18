@@ -12,14 +12,14 @@ pip install -r requirements/ai_trainer.txt   # tensorflow, keras, mediapipe, etc
 ## 3. Pipeline rápido
 
 
-# 1. Predecir último video procesado
+### 1. Predecir último video procesado
 python predictor.py --mode latest
 
-# 2. Validar predicciones vs. Whisper y generar clips
+### 2. Validar predicciones vs. Whisper y generar clips
 python predictor.py --mode validate --full-pipeline
 
 
-## 4. Salidas
+## 2. Salidas
 ```bash
 ai_trainer/output/
 ├── models/
@@ -30,7 +30,7 @@ ai_trainer/output/
     └── training_20260119.log
 ```
 
-## 5. Clases principales 
+## 3. Clases principales 
 
 | Clase                        | Función                                                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------- |
