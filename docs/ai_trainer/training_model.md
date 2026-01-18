@@ -4,8 +4,10 @@
 Convierte clips validados (`train_data/validadas/keypoints/&lt;palabra&gt;/*.json`) en un modelo `.keras` listo para predicción.
 
 ## 2. Instalación (entorno `ai_trainer`)
-bash
+```bash
 pip install -r requirements/ai_trainer.txt   # tensorflow, pandas, sklearn, etc.
+```
+
 
 
 ## 3.probar
