@@ -32,7 +32,11 @@ ai_trainer/output/models/20260119_143022/
 ## 5. Opciones 
 
 # Solo (re)entrenar (datos ya preparados)
-python train.py --no-prepare
+
+```python
+ train.py --no-prepare
+```
+
 
 # Más épocas / otro batch
 ```python
