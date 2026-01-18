@@ -38,6 +38,8 @@ Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
 <meta http-equiv="refresh" content="0; url="/>
 <button onclick="location.href='https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md">Llévame a otro lado</button>
 <a>sasas</a>
+[![Setup](https://img.shields.io/badge/📘%20Setup-Click%20here-blue)](https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md)
+
 
 ## Comandos tipicos 
 | Paso | Comando                                                          | Descripción                                  |
