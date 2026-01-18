@@ -35,8 +35,8 @@ Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
 <meta http-equiv="refresh" content="0"; url="https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md"/>
 
 <!-- docs/setup.md -->
-<meta http-equiv="refresh" content="0; url=https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md"/>
-
+<meta http-equiv="refresh" content="0; url="/>
+<button onclick="location.href='https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md">Llévame a otro lado</button>
 
 ## Comandos tipicos 
 | Paso | Comando                                                          | Descripción                                  |
