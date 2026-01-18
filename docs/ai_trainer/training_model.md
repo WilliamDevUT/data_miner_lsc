@@ -54,7 +54,7 @@ train_data/
     └── seña_3.json
 ```
 
-## 7. arquitectura por defecto 
+## 7. Arquitectura por defecto 
 
 | Capa                      | Salida     |
 | ------------------------- | ---------- |
