@@ -8,13 +8,14 @@ Solo mantiene el mapeo **ID → texto legible** para mostrar en pantalla o logs.
 Se importa en:
 ```python
 from constants import words_text, word_ids
-
+```
 Ejemplo:
 
-Python
+Python:
+```python
 palabra = word_ids[pred_idx]        # 'hola'
 texto   = words_text['hola']        # 'HOLA'
-
+```
 ## 3. ¿Se usa todavía?
 
 Sí, pero solo como fallback visual.
