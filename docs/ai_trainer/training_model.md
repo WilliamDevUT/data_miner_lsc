@@ -13,7 +13,7 @@ pip install -r requirements/ai_trainer.txt   # tensorflow, pandas, sklearn, etc.
 ## 3.probar
 
 ```python
-train.py
+training_model.py
 ```
 
 
@@ -34,13 +34,13 @@ ai_trainer/output/models/20260119_143022/
 # Solo (re)entrenar (datos ya preparados)
 
 ```python
- train.py --no-prepare
+ training_model.py --no-prepare
 ```
 
 
 # Más épocas / otro batch
 ```python
-train.py --epochs 1000 --batch 16 --split 0.2
+training_model.py --epochs 1000 --batch 16 --split 0.2
 ```
 
 
