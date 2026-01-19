@@ -5,9 +5,9 @@
 
 ## ¿Qué hace?
 1. **Extrae** keypoints de video (MediaPipe)  
-2. **Entrena** un modelo LSTM con los clips validados  
-3. **Predice** palabras en tiempo real  
-4. **Valida** las predicciones contra la transcripción (Whisper) y genera nuevos clips para re-entrenar
+2. **Predice** palabras en tiempo real  
+3. **Valida** las predicciones contra la transcripción (Whisper) y genera nuevos clips para re-entrenar
+4. **Entrena** un modelo LSTM con los clips validados  
 
 ---
 
