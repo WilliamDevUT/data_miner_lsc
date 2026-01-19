@@ -1,6 +1,6 @@
-# 📦 data_miner – Procesador de vídeos LSM
+# 📦 data_miner – Procesador de vídeos LSC
 
-Extrae señales visuales (keypoints de MediaPipe) y audio de vídeos de Lengua de Señas Mexicana (LSM) para alimentar el entrenador de modelos (`ai_trainer`).  
+Extrae señales visuales (keypoints de MediaPipe) y audio de vídeos de Lengua de Señas Colombiana (LSC) para alimentar el entrenador de modelos (`ai_trainer`).  
 Puede trabajar con:
 
 * URLs de YouTube (descarga automática)
