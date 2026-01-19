@@ -1,5 +1,5 @@
 
-# 📦 Instalación completa – LSM-Trainer  
+# 📦 Instalación completa – LSC-Trainer  
 Guía paso a paso para Windows / macOS / Linux
 
 ---
@@ -15,7 +15,7 @@ Guía paso a paso para Windows / macOS / Linux
 ## 1. Clonar el repositorio
 ```bash
 git clone https://github.com/tu_usuario/lsm-trainer.git
-cd lsm-trainer
+cd lsc-trainer
 ```
 ## 2. Instalar ffmpeg
 
