@@ -61,16 +61,6 @@ source venv_dm/bin/activate
 pip install --upgrade pip
 pip install -r requirements/data_miner.txt
 ```
-### 1   data_miner
-```bash
-# Windows
-venv_ai\Scripts\activate
-# macOS/Linux
-source venv_ai/bin/activate
-
-pip install --upgrade pip
-pip install -r requirements/ai_trainer.txt
-```
 ## 5. Transcripción rápida con Groq
 Regístrate en https://console.groq.com → API Keys
 Crea .env en la raíz del repo:
