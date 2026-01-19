@@ -1,4 +1,4 @@
-# LSM-Trainer  
+# LSC-Trainer  
 **Reconocimiento de Lengua de Señas Colombiana con MediaPipe + TensorFlow**
 
 ---
