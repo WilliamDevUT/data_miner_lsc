@@ -87,16 +87,20 @@ Si los --help funcionan → ¡listo!
 
 ```bash
 
-   # 1. Descarga un video corto de YouTube
+# 1. Descarga un video corto de YouTube
 venv_dm\Scripts\activate
 python data_miner/mining_data.py --url "https://youtu.be/3rtF7_1xb9A" --duration 2
 
-# 2. Entrena un mini-modelo (3-5 palabras de prueba)
+
+# 2. Prediciones entre el whisper y las detecciones del keras
+python ai_trainer/predictor.py --mode latest
+
+#(hacer veces necesario para tener data para entrenamiento)
+
+# 3. Entrena un mini-modelo (3-5 palabras de prueba)
 venv_ai\Scripts\activate
 python ai_trainer/train.py --epochs 10
 
-# 3. Predice
-python ai_trainer/predictor.py --mode latest
 ```
 ## 8. Solución de problemas comunes
 
