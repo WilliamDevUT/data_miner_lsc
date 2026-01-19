@@ -20,7 +20,7 @@ entre mejor sea la calidad del video mejor.
 
 ```bash
 # 1. Clona
-git clone https://github.com/tu_usuario/lsm-trainer.git
+git clone https://github.com/WilliamDevUT/data_miner_lsc.git
 cd lsm-trainer
 
 ## 2. Crea y activa los ambientes
