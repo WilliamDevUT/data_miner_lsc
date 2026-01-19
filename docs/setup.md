@@ -80,7 +80,7 @@ Comprueba que groq_whisper.py lo detecta:
 venv_dm\Scripts\activate
 python -c "from groq_whisper import transcribe_audio_in_chunks; print('✓ Groq OK')"
 ```
-6. Comprobar instalación
+## 6. Comprobar instalación
 ```bash
 # data_miner
 venv_dm\Scripts\activate
@@ -93,7 +93,7 @@ python ai_trainer/train.py --help         # debe mostrar argumentos
 
 Si los --help funcionan → ¡listo!
 
-7. Prueba rápida (demo)
+## 7. Prueba rápida (demo)
 
 ```bash
 
@@ -108,7 +108,7 @@ python ai_trainer/train.py --epochs 10
 # 3. Predice
 python ai_trainer/predictor.py --mode latest
 ```
-8. Solución de problemas comunes
+## 8. Solución de problemas comunes
 
 | Error                    | Solución                                                                 |
 | ------------------------ | ------------------------------------------------------------------------ |
@@ -117,6 +117,7 @@ python ai_trainer/predictor.py --mode latest
 | `Groq rate-limit`        | Añade `time.sleep(60)` en `groq_whisper.py` o usa `--skip-transcription` |
 | `No module named config` | Ejecuta **desde la raíz del repo**, no desde sub-carpetas                |
 | GPU no detectada         | TensorFlow CPU funciona igual; solo será más lento                       |
+
 Lee el README principal para el flujo completo
 Añade tus propios clips a train_data/validadas/keypoints/<palabra>/.
 Re-entrena → mejora el modelo → valida → repite.
