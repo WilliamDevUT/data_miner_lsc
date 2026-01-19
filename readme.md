@@ -39,9 +39,9 @@ Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
 | Paso | Comando                                                          | Descripción                                  |
 | ---- | ---------------------------------------------------------------- | -------------------------------------------- |
 | 1    | `python data_miner/mining_data.py --url YOU_TUBE_URL`            | Descarga → segmentos → keypoints             |
-| 2    | `python ai_trainer/training_model.py`                            | Entrena modelo (auto-guarda con fecha)       |
-| 3    | `python ai_trainer/predictor.py --mode latest`                   | Predice último video                         |
-| 4    | `python ai_trainer/predictor.py --mode validate --full-pipeline` | Corta clips buenos/malos y actualiza dataset |
+| 2    | `python ai_trainer/predictor.py --mode latest`                   | Predice último video                         |
+| 3    | `python ai_trainer/predictor.py --mode validate --full-pipeline` | Corta clips buenos/malos y actualiza dataset |
+| 4    | `python ai_trainer/training_model.py`                            | Entrena modelo (auto-guarda con fecha)       |
 
 ## Requisitos 
 - Python 3.10
