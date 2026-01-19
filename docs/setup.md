@@ -8,7 +8,7 @@ Guía paso a paso para Windows / macOS / Linux
 - Python **3.9 – 3.11**  
 - 4 GB de RAM mínimo (8 GB recomendado)  
 - **ffmpeg** en el PATH (sin él no se extrae audio)  
-- (Opcional) cuenta en [Groq](https://console.groq.com) → clave API para transcripción rápida
+- cuenta en [Groq](https://console.groq.com) → clave API para transcripción rápida
 
 ---
 
