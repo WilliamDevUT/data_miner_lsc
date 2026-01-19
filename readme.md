@@ -31,7 +31,7 @@ pip install -r requirements/ai_trainer.txt
 ```
 Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
 
-(https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md)
+[setup.md]((https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md)
 
 
 
