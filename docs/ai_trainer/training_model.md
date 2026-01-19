@@ -1,4 +1,4 @@
-# train.md – Pipeline de entrenamiento LSM
+# train.md – Pipeline de entrenamiento LSC
 
 ## 1. Propósito
 Convierte clips validados (`train_data/validadas/keypoints/"palabra"/*.json`) en un modelo `.keras` listo para predicción.
