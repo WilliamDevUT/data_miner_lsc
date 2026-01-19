@@ -30,8 +30,8 @@ venv_ai\Scripts\activate
 pip install -r requirements/ai_trainer.txt
 ```
 Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
-[Groq](https://console.groq.com)
-[setup]((https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md)
+
+(https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md)
 
 
 
