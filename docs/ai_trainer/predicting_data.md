@@ -1,7 +1,7 @@
 # ai_trainer.md – Entrenamiento y predicción de señas
 
 ## 1. Propósito
-Entrena modelos de clasificación de LSM (Lengua de Señas Mexicana) y predice palabras a partir de secuencias de keypoints generadas por `data_miner`.
+Entrena modelos de clasificación de LSC (Lengua de Señas Colombiana) y predice palabras a partir de secuencias de keypoints generadas por `data_miner`.
 
 ## 2. Instalación (entorno `ai_trainer`)
 ```bash
