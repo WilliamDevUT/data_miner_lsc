@@ -21,7 +21,7 @@ entre mejor sea la calidad del video mejor.
 ```bash
 # 1. Clona
 git clone https://github.com/WilliamDevUT/data_miner_lsc.git
-cd lsm-trainer
+cd data_miner_lsc
 
 ## 2. Crea y activa los ambientes
 python -m venv venv_dm      # data_miner
