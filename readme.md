@@ -7,7 +7,12 @@
 1. **Extrae** keypoints de video (MediaPipe)  
 2. **Predice** palabras en tiempo real  
 3. **Valida** las predicciones contra la transcripción (Whisper) y genera nuevos clips para re-entrenar
-4. **Entrena** un modelo LSTM con los clips validados  
+4. **Entrena** un modelo LSTM con los clips validados
+
+## 📺 Videos de entrada esperados
+Grabaciones de **noticieros o transmisiones en vivo** donde un **intérprete de LSM** traduzca la voz en tiempo real.  
+El intérprete debe aparecer de medio cuerpo (de la cintura hacia arriba), de frente y sin cortes bruscos de cámara.
+entre mejor sea la calidad del video mejor.
 
 ---
 
