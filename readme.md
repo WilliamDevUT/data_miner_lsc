@@ -46,7 +46,7 @@ pip install -r requirements/ai_trainer.txt
 # 4. Crea un .env y añade tu GROQ_API_KEY
 
 Regístrate en https://console.groq.com → API Keys
-Crea .env en la raíz del repo:
+Crea .env en la carpeta de data_miner:
 `GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
 ```
