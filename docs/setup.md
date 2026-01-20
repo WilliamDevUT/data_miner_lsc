@@ -63,7 +63,7 @@ pip install -r requirements/data_miner.txt
 ```
 ## 5. Transcripción rápida con Groq
 Regístrate en https://console.groq.com → API Keys
-Crea .env en la raíz del repo:
+Crea .env en la carpeta de data_miner:
 `GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 Comprueba que groq_whisper.py lo detecta:
 ```bash
