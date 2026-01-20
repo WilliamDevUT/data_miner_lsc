@@ -24,11 +24,20 @@ git clone https://github.com/WilliamDevUT/data_miner_lsc.git
 cd data_miner_lsc
 
 ## 2. Crea y activa los ambientes
-python -m venv venv_dm      # data_miner
-python -m venv venv_ai      # ai_trainer
 
-# 3. Instala dependencias
+cd ai_trainer
+py -3.10 -m venv venv_dm    # data_miner
+
+cd..
+
+cd data_miner
+py -3.10 -m venv venv_ai    # ai_trainer
+
+cd..
+
+# 3. Instala dependencias para ambos ambientes
 venv_dm\Scripts\activate    # Linux/mac: source venv_dm/bin/activate
+
 pip install -r requirements/data_miner.txt
 
 venv_ai\Scripts\activate
