@@ -43,6 +43,13 @@ pip install -r requirements/data_miner.txt
 venv_ai\Scripts\activate
 pip install -r requirements/ai_trainer.txt
 ```
+# 4. Crea un .env y añade tu GROQ_API_KEY
+
+Regístrate en https://console.groq.com → API Keys
+Crea .env en la raíz del repo:
+`GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
+
+```bash
 Mira setup.md para todos los pasos de instalación (ffmpeg, claves API, etc.).
 
 (https://github.com/WilliamDevUT/data_miner_lsc/blob/main/docs/setup.md)
